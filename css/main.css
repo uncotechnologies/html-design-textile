@@ -195,10 +195,10 @@ textarea.form-control {
   text-transform: uppercase;
 }
 .top-strip-left li a {
-  border-left: 1px solid #333146;
+  border-right: 1px solid rgba(255,255,255,0.3);
 }
 .top-strip-right li a {
-  border-right: 1px solid #333146;
+  border-right: 1px solid rgba(255,255,255,0.3);
 }
 .head-top {
   margin-top: 30px;
