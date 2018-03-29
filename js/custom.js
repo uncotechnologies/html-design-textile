@@ -47,10 +47,10 @@ jQuery('#main-slide').owlCarousel({
 });
 jQuery('.ou-mis-slide').owlCarousel({
 	  loop:true,
-	  items:1,
-	  nav:true,
+	  items:5,
+	  nav:true, 
 	  dots:false,
-	  autoplay:false,
+	  autoplay:true,
 	  margin:10,
 	  autoplayTimeout:5000,
 	  smartSpeed:1500,
