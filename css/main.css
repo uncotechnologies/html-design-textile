@@ -173,8 +173,8 @@ textarea.form-control {
 .sticky-header .main-menu a {
   color: #fff;
 }
-.sticky-header .dropdown-box a {
-  color: #595959;
+.sticky-header .dropdown-box a, .sticky-header .dropdown-box a:hover {
+  color: #595959 !important;
 }
 .sticky-header .head-top, .sticky-header .head-bottom {
   padding: 0px 50px;
@@ -393,13 +393,20 @@ textarea.form-control {
   color: #333333;
   display: block;
   margin: 0;
-  padding: 10px;
+  padding: 11px 10px;
   position: relative;
-  z-index:1;
+  font-size: 13px;
+  z-index: 1;
   text-transform: capitalize;
 }
 .main-menu a:hover {
   color: #FF008C;
+}
+.sticky-header .main-menu a:hover {
+  color: #fff;
+}
+.sticky-header .dropdown-box a:hover {
+  color: #fff;
 }
 .head-sre-inp .form-control {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -883,11 +890,17 @@ section.our-causes-blk {
 .ause-amnt li:last-child::before {
   content: none;
 }
-.cau-btn .btn.cust-btn {
+/* .cau-btn .btn.cust-btn {
   background: #e3e3e3 none repeat scroll 0 0;
   color: #333333;
   width: 100%;
   margin:0;
+} */
+.cau-btn .btn.cust-btn {
+  background: #089737 none repeat scroll 0 0;
+  color: #fff;
+  width: 100%;
+  margin: 0;
 }
 .cuse-data-blk:hover .cau-btn .btn.cust-btn{
   background: #FF008C none repeat scroll 0 0;
@@ -1032,6 +1045,8 @@ section.our-causes-blk {
 /*----------------------footer----------------*/
 footer {
   background: #000000;
+  position: relative;
+  z-index: 2;
 }
 .footer-main {
  padding: 40px 100px;	
@@ -1188,14 +1203,26 @@ footer {
   box-shadow: 0 0 8px #e5e5e5;
   border-radius: 4px;
 }
+.sticky-header .filter-left {
+  position: fixed;
+  top: 120px;
+  width: 260px;
+  height: 100%;
+  z-index: 1;
+}
 .filter-left h3 {
   font-size: 18px;
   padding: 15px;
   font-weight: 600;
   letter-spacing: 1px;
 }
+/* .filter-left .panel-group .panel {
+  border-radius: 0;
+} */
 .filter-left .panel-group .panel {
   border-radius: 0;
+  box-shadow: 0 0 0 0 !important;
+  border: 0;
 }
 .filter-left .panel-heading {
   padding: 0 !important;
@@ -1676,4 +1703,8 @@ span.mrg-top10 {
 }
 .related-list a:hover {
   color: #d80073;
+}
+/* ----- */
+.fabric-list li {
+  padding: 0 0 10px;
 }
