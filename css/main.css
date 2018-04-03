@@ -1370,9 +1370,7 @@ footer {
 }
 .border-box {
   background: #fff;
-  border: 1px solid #eae7e7;
   padding: 0;
-  box-shadow: 0 0 5px #e5e5e5;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -1392,13 +1390,15 @@ footer {
   width: 100%;
 } 
 .border-box.scn-detl h3 {
-  background: #fafafa;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
   font-size: 18px;
 }
 .scn-detl p {
   padding: 15px;
+}
+.detail-table td {
+  font-size: 13px;
 }
 .border-box.scn-detl h4 {
   padding: 15px;
@@ -1416,7 +1416,6 @@ footer {
     z-index: 1;
     width: 100%;
     font-size: 20px;
-    background: #fafafa;
     font-weight: 400;
     padding: 10px 15px;
     border-bottom: 1px solid #e5e5e5;
@@ -1707,4 +1706,15 @@ span.mrg-top10 {
 /* ----- */
 .fabric-list li {
   padding: 0 0 10px;
+}
+/* new-product detail */
+.product-img img {
+  width: 100%;
+}
+.width-50 {
+  width: 50%;
+}
+.same-height {
+  height: 475px;
+  overflow: hidden;
 }
