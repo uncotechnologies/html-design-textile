@@ -1372,7 +1372,7 @@ footer {
   background: #fff;
   padding: 0;
   border-radius: 4px;
-  overflow: hidden;
+  overflow: visible !important;
 }
 .scn-detl h3 {
   font-size: 22px;
@@ -1397,9 +1397,7 @@ footer {
 .scn-detl p {
   padding: 15px;
 }
-.detail-table td {
-  font-size: 13px;
-}
+
 .border-box.scn-detl h4 {
   padding: 15px;
 }
@@ -1424,11 +1422,12 @@ footer {
   position: absolute;
   top: 0;
   right: 0;
-  background: #fff;
+  background: #089737;
   padding: 14px;
   text-transform: capitalize;
   font-size: 14px;
   font-weight: 500;
+  color: #fff;
 }
 .mrg-rt15 .inr-cur {
   padding: 0 4px;
@@ -1717,4 +1716,62 @@ span.mrg-top10 {
 .same-height {
   height: 475px;
   overflow: hidden;
+}
+/* detail-table1 */
+.detail-table1 table {
+  border:0 !important;
+}
+.detail-table1 td {
+  border: 0 !important;
+  position: relative;
+}
+.detail-table1 td:first-child::before {
+  position: absolute;
+  top: 4px;
+  right: -5px;
+  content: ":";
+}
+.detail-table1 td {
+  vertical-align: top;
+}
+.detail-table1 td:last-child {
+  padding-left: 15px;
+}
+.detail-table1 tr:nth-of-type(2n+1) {
+  background-color: #e1e1e1;
+  border-bottom: 1px solid #fff;
+}
+.detail-table1 tr:nth-of-type(2n+2) {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #fff;
+}
+.detail-table1 {
+  padding: 10px 15px 0;
+}
+.cutting-price {
+  color: #565151;
+  font-size: 13px;
+  display: block;
+  vertical-align: middle;
+  position: absolute;
+  top: -6px;
+}
+.offer-cut {
+  color: green;
+}
+.cut-label {
+  display: inline-block;
+  text-decoration: line-through;
+}
+.price-label {
+  font-weight: 500;
+}
+.cutting-price span {
+  padding-right: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.offer-cut {
+  color: green;
+  font-size: 13px;
 }
