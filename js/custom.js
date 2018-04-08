@@ -1,5 +1,10 @@
 jQuery(document).ready(function(){
 
+	$('[data-toggle="popover"]').popover({
+        placement : 'top',
+        trigger : 'hover'
+    });
+
 	/********* Sticky Header ************/	
 	jQuery(window).scroll(function(){
 	var sticky = jQuery('body'),
@@ -42,8 +47,8 @@ jQuery(document).ready(function(){
 				
 	});
 
-	jQuery('[data-toggle="popover"]').popover();
-	$(".custom-checkbox").click(function(){
-        $(".stitching-size").slideToggle();
-    });
+	// jQuery('[data-toggle="popover"]').popover();
+	// $(".custom-checkbox").click(function(){
+    //     $(".stitching-size").slideToggle();
+    // });
 });
