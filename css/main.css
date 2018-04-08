@@ -1438,7 +1438,7 @@ footer {
   padding: 15px;
 }
 .detail-table {
-  padding: 0 15px 15px;
+  padding: 0 0 15px;
 }
 .margin-top-166 {
   margin-top: 166px;
@@ -1821,4 +1821,7 @@ span.mrg-top10 {
   font-size: 14px;
   padding: 10px 0;
   margin: -20px 0 0;
+}
+#collapseTwo .panel-body {
+  padding-bottom: 0 !important;
 }
