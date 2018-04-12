@@ -1978,3 +1978,70 @@ span.mrg-top10 {
   width: 100px;
   height: 30px !important; 
 }
+/* product-detail */
+.border-box h3 {
+  font-weight: 300;
+  margin: 0 0 5px;
+}
+.stock-price table {
+    width: 100%;
+}
+.whole-style .panel:first-child .panel-heading {
+  border-top: 0 !important;
+  padding: 7px 15px !important;
+}
+.border-box {
+  margin-bottom: 10px;
+}
+.stock-price b {
+  font-weight: 600;
+}
+.stock-price tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+.stock-price tr:last-child {
+  border-bottom: 0;
+}
+.click-to-enquy {
+  display: inline-block;
+  color: gray;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0;
+}
+.click-to-enquy:hover {
+  color: #d80073;
+}
+.detail-table {
+  height: 310px;
+  overflow: auto;
+}
+.detail-table1 td:first-child::before, .stock-price td:first-child::before {
+  color: #000;
+  z-index: 1;
+}
+.facebook {
+  background: #4052b5 !important;
+  color: #fff !important;
+}
+.google {
+  background-color: #da4739 !important;
+  color: #fff !important;
+}
+.twitter {
+  background-color: #01cfff !important;
+  color: #fff !important;
+}
+.linkedn {
+  background: #007bb6 !important;
+  color: #fff !important;
+}
+.footer-social a {
+  box-shadow: 0 0 0 0 !important;
+}
+.product-left.same-height {
+  height: 468px !important;
+}
+.tailoringservices {
+  padding: 24px 0 15px !important;
+}
