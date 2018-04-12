@@ -1677,18 +1677,6 @@ span.mrg-top10 {
   display: inline-block;
   padding-right: 10px;
 }
-.click-to-enquy {
-  display: inline-block;
-  background: #0471b7;
-  height: 41px;
-  vertical-align: top;
-  color: #e5e5e5;
-  text-align: center;
-  line-height: 41px;
-  text-transform: capitalize;
-  border: 1px solid #0471b7;
-  padding: 0 20px;
-}
 .download-catlog, .download-catlog:hover, .download-catlog:focus {
   display: block;
   background: #d80073;
