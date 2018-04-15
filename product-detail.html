@@ -640,8 +640,13 @@
                                     <tr>
                                         <td><b>Full Catalog Price</b></td>
                                         <td>
-                                            <div class="detail-product-price"> 
-                                                <span class="inr-cur"><i class="fa fa-inr"></i>5280</span> 
+                                            <div class="detail-product-price">                                              
+                                                <span class="inr-cur"><i class="fa fa-inr"></i>5280</span><span class="offer-cut">35%</span> 
+                                                <div class="cutting-price">
+                                                    <span class="price-label"><i class="fa fa fa-inr"></i> <span class="cut-label">7580</span></span>
+                                                        you save
+                                                    <span class="price-label"><i class="fa fa fa-inr"></i> <span>2563</span></span>                                       
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -1232,18 +1237,7 @@
           } );
         </script>
         <script>
-          $( function() {
-            var spinner = $( "#spinner, #spinner1, #spinner2" ).spinner();
-         
-            $( "#disable" ).on( "click", function() {
-              if ( spinner.spinner( "option", "disabled" ) ) {
-                spinner.spinner( "enable" );
-              } else {
-                spinner.spinner( "disable" ); 
-              }
-            });
-            
-          } );
+          
         </script>
         <script>
                 lightbox.option({
