@@ -3,7 +3,20 @@ jQuery(document).ready(function(){
 	$('[data-toggle="popover"]').popover({
         placement : 'top',
         trigger : 'hover'
-    });
+	});
+	
+	$( function() {
+		var spinner = $( "#spinner, #spinner1, .spinner input" ).spinner();
+	 
+		$( "#disable" ).on( "click", function() {
+		  if ( spinner.spinner( "option", "disabled" ) ) {
+			spinner.spinner( "enable" );
+		  } else {
+			spinner.spinner( "disable" ); 
+		  }
+		});
+		
+	  } );
 
 	/********* Sticky Header ************/	
 	jQuery(window).scroll(function(){
