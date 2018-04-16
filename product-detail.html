@@ -611,9 +611,21 @@
       <div  class="row">
         <div class="col-md-4">
           <div class="product-left clearfix same-height">
-            <div class="product-img clearfix">
+            <div class="product-img clearfix" data-toggle="modal" data-target="#myModal">
               <img src="images/1.jpeg">
             </div>
+            <!-- modal -->
+            <div class="modal cust-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body product-img">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <img src="images/1.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end-modal -->
           </div>
         </div>
         <div class="col-md-8">
@@ -641,7 +653,7 @@
                                         <td><b>Full Catalog Price</b></td>
                                         <td>
                                             <div class="detail-product-price">                                              
-                                                <span class="inr-cur"><i class="fa fa-inr"></i>5280</span><span class="offer-cut">35%</span> 
+                                                <span class="inr-cur"><i class="fa fa-inr"></i>5280 <span class="offer-cut">35%</span></span> 
                                                 <div class="cutting-price">
                                                     <span class="price-label"><i class="fa fa fa-inr"></i> <span class="cut-label">7580</span></span>
                                                         you save
@@ -791,14 +803,16 @@
                                         <div class="mrg-rt15">
                                         Standard Stitching   + 
                                         <span class="inr-cur"><i class="fa fa-inr"></i> 400</span>                               
-                                        <div class="custom-checkbox">
                                         
-                                            <label></label>
-                                        </div>
                                      
                                             <button type="button" class="detail-info" data-toggle="popover" data-content="Measure your Garment bust and choose the."><i class="fa fa-info"></i></button>
                                      </div> 
                                     </a>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox">
+                                        <label>
+                                        </label>
+                                    </div>
                                  </div>   
                                     
                                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
